@@ -15,7 +15,7 @@ var Quotes = (function(){
 
     Quote.rating = function(rating){
         console.log(rating);
-        return Quote.starRating = rating;
+        return Quote.starRating === rating;
     };
 
     Quote.makeDOM = function(quoteList, location){
